@@ -1,0 +1,49 @@
+nav ul{
+    margin-left: 10%;
+}
+.logoname{
+    margin-top: 1%;
+}
+
+
+
+.w-100 {
+    width: 100%!important;
+    height: 90vh;
+}
+.title01{
+    color: aqua;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.section01{
+    width: 100%;
+    height: 100vh;
+    background-image: url(gifbc/fotter.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.last{
+    position: absolute;
+    text-align: center;
+    top: 50;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.last h2{
+    color: white;
+}
+.last p{
+    color: white;
+    font-weight: 300;
+
+}
+.section02{
+    display: none;
+}
+.lastpage{
+    display: none;
+}

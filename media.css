@@ -1,0 +1,66 @@
+@media only screen and (max-width: 500px) {
+    .w-100 {
+        width: 100%!important;
+        height: 30vh;
+    }
+   
+    .section02{
+        display: block;
+        background-image: url(gifbc/meias.gif) ;
+        background-position: center;
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        position: relative;
+        
+
+    }
+    .section02 a{
+color: white;
+text-decoration: none;
+background-color:#02B290;
+position: absolute;
+top: 50;
+left: 0;
+right: 0;
+bottom: 0;
+text-align: center;
+font-size: 1.6rem;
+padding: 6px 0px;
+
+
+    }
+
+    .section02 a:hover{
+        color: white;
+        background-color: #02B290;
+    }
+    .section01{
+        display: none;
+    }
+.lastpage{
+    display: block;
+    background-color: #2c3e50;
+  
+}
+.lastpage .main01{
+    text-align: center;
+    padding-top: 13%;
+    padding-bottom: 12%;
+    color: aliceblue;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  }
