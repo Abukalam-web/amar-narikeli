@@ -9,7 +9,8 @@ nav ul{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 20px;
 }
 .section01 .title01 h3{
     color: white;
@@ -51,4 +52,109 @@ nav ul{
     color: aliceblue;
     background:#1C8D73;
 }
+
+
+.section03{
+    display: none;
+}
+
+.section02{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(gifbc/fotter.gif);
+    background-position: center;
+    
+}
+.section02 .last{
+    position: absolute;
+    top: 50;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    .col-md-3 .card {
+        margin: 20px auto;
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .col-md-3 .card {
+        margin: 20px auto;
+        height: 490px;
+
+        
+    }
+    .section02{
+        display: none;
+    }
+    .section03{
+        display: block;
+        height: 300px;
+        background-image: url(gifbc/body.gif);
+        color: white;
+      
+    }
+    .section03 .main01{
+       text-align: center;
+       padding-top: 200px;
+    
+    }
+}
+@media only screen and (max-width: 400px){
+    .col-md-3 .card {
+        margin: 20px auto;
+        height: 437px;
+    }
+}
+
+
+
+
+
+
+
 

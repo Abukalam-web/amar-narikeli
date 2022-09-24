@@ -1,9 +1,11 @@
 @media only screen and (max-width: 500px) {
+
     .w-100 {
         width: 100%!important;
         height: 33vh;
     }
-   
+  
+    
     .section02{
         display: block;
         background-image: url(gifbc/meias.gif) ;
@@ -51,7 +53,6 @@ padding: 6px 0px;
 
    
 }
-
 
 
 
