@@ -4,7 +4,9 @@
         width: 100%!important;
         height: 33vh;
     }
-  
+  .middle-section{
+    display: none;
+  }
     
     .section02{
         display: block;

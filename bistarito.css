@@ -27,7 +27,7 @@ nav ul{
 
 .card{
     margin: auto;
-    height: 380px;
+    height: 360px;
 }
 .card-body{
     text-align: center;
@@ -64,6 +64,7 @@ nav ul{
     height: 300px;
     background-image: url(gifbc/fotter.gif);
     background-position: center;
+   
     
 }
 .section02 .last{
@@ -128,8 +129,10 @@ nav ul{
         margin: 20px auto;
         height: 490px;
 
+
         
     }
+  
     .section02{
         display: none;
     }
@@ -149,7 +152,8 @@ nav ul{
 @media only screen and (max-width: 400px){
     .col-md-3 .card {
         margin: 20px auto;
-        height: 417px;
+        height: 360px;
+        
     }
 }
 
