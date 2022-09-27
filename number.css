@@ -4,3 +4,206 @@ nav ul{
 .logoname{
     margin-top: 1%;
 }
+
+
+.pc-display{
+    background: #34495e;
+}
+.first-line h3{
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+.first-line marquee{
+    color: white;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background: linear-gradient(#34495e,#2c3e50);
+
+}
+
+
+.line02{
+    text-align: center;
+}.line03{
+    text-align: center;
+}.line04{
+    text-align: center;
+}.line05{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.line02 a{
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding: 15px 50px;
+    background: linear-gradient(#34495e,#2c3e50);
+    border-radius: 10px;
+}
+.line03 a{
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding: 15px 50px;
+    background: linear-gradient(#34495e,#2c3e50);
+    border-radius: 10px;
+}
+
+
+.line04 a{
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding: 15px 75px;
+    background: linear-gradient(#34495e,#2c3e50);
+    border-radius: 10px;
+}
+
+
+.line05 a{
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding: 15px 78px;
+    background: linear-gradient(#34495e,#2c3e50);
+    border-radius: 10px;
+}
+
+
+
+.line05 a:hover{
+    color: white;
+    color: #2c3e50;
+    background: #3498db;
+    box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+    border-radius: 20px;
+}
+
+.line04 a:hover{
+    color: white;
+    color: #2c3e50;
+    background: #3498db;
+    box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+    border-radius: 20px;
+}
+
+    .line03 a:hover{
+        color: white;
+        color: #2c3e50;
+        background: #3498db;
+        box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+        border-radius: 20px;
+    }
+    .line02 a:hover{
+        color: white;
+        color: #2c3e50;
+        background: #3498db;
+        box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+        border-radius: 20px;
+    }
+
+
+.line06{
+    margin-top: 350px;
+    text-align: center;
+}
+
+
+
+
+.mobile-display{
+    background: #34495e;
+}
+.m-heading marquee{
+    color: #f1c40f;
+    font-size: 16px;
+    background: 
+    linear-gradient(#34495e,#2c3e50);
+padding-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.m-option-select h3{
+color: white;
+text-align: center;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.four-options .m01{
+    text-align: center;
+    margin-top: 50px;
+}
+.m02, .m03, .m04{
+    text-align: center;
+}
+
+.m01 a, .m02 a, .m03 a, .m04 a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+   
+    padding: 20px 80px;
+    border-radius: 15px;
+    background: linear-gradient(#34495e,#2c3e50);
+}
+
+.m03 a{
+    padding: 15px 100px;
+}
+.m04 a{
+    padding: 15px 105px;
+
+}
+.m04{
+    padding-bottom: 100px;
+}
+
+.m01 a:hover, .m02 a:hover, .m03 a:hover, .m04 a:hover{
+    color: white;
+    color: #2c3e50;
+    background: #3498db;
+    box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+    border-radius: 20px;
+}
+
+.m09{
+    margin-top: 130px;
+    text-align: center;
+    color: #95a5a6;
+}
+.m09 p{
+    text-align: center;
+    margin: 1px 5px;
+}
+
+
+.mobile-display{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+    .pc-display{
+        display: none;
+    }
+    .mobile-display{
+        display: block;
+    }
+}
