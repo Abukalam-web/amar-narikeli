@@ -25,13 +25,13 @@ nav ul{
 }
 
 
-.line02{
+.line02, .line05{
     text-align: center;
 }.line03{
     text-align: center;
 }.line04{
     text-align: center;
-}.line05{
+}.line055{
     text-align: center;
     padding-bottom: 150px;
 }
@@ -69,6 +69,16 @@ nav ul{
 }
 
 
+.line055 a{
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding: 15px 20px;
+    background: linear-gradient(#34495e,#2c3e50);
+    border-radius: 10px;
+}
 .line05 a{
     text-decoration: none;
     font-size: 33px;
@@ -80,7 +90,13 @@ nav ul{
     border-radius: 10px;
 }
 
-
+.line055 a:hover{
+    color: white;
+    color: #2c3e50;
+    background: #3498db;
+    box-shadow: 0 0 10px #3498db, 0 0 40px #3498db, 0 0 80px #4398db;
+    border-radius: 20px;
+}
 
 .line05 a:hover{
     color: white;
@@ -150,7 +166,7 @@ margin-bottom: 10px;
     text-align: center;
 }
 
-.m01 a, .m02 a, .m03 a, .m04 a{
+.m01 a, .m02 a, .m03 a, .m04 a, .lm01 a{
     color: white;
     text-decoration: none;
     font-size: 30px;
@@ -159,7 +175,9 @@ margin-bottom: 10px;
     border-radius: 15px;
     background: linear-gradient(#34495e,#2c3e50);
 }
-
+.lm01 a{
+    padding: 20px 60px ;
+}
 .m03 a{
     padding: 15px 100px;
 }
@@ -168,10 +186,14 @@ margin-bottom: 10px;
 
 }
 .m04{
+    
+}
+.lm01{
     padding-bottom: 100px;
+    text-align: center;
 }
 
-.m01 a:hover, .m02 a:hover, .m03 a:hover, .m04 a:hover{
+.m01 a:hover, .m02 a:hover, .m03 a:hover, .m04 a:hover, .lm01 a:hover{
     color: white;
     color: #2c3e50;
     background: #3498db;

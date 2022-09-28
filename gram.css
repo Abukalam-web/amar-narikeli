@@ -4,3 +4,38 @@ nav ul{
 .logoname{
     margin-top: 1%;
 }
+
+.title01{
+    color: white;
+background: linear-gradient(#95a5a6,#7f8c8d);
+    text-align: center;
+    padding: 10px 0px;
+   
+}
+.section01{
+    background-color: #95a5a6;
+    padding-top: 10px;
+}
+
+.colimn02{
+    overflow: hidden;
+}
+.colimn02 p{
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#95a5a6,#7f8c8d);
+    text-align: center;
+    letter-spacing: 3px;
+}
+p{
+    color: white;
+}
+.line001{
+color: white;
+font-size: 30px;
+background: linear-gradient(#95a5a6,#7f8c8d);
+text-align: center;
+}
+.culumn01 p{
+    text-align: justify;
+}
