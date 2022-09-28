@@ -1,0 +1,49 @@
+
+nav ul{
+    margin-left: 10%;
+}
+.logoname{
+    margin-top: 1%;
+}
+
+.sectio01{
+    background: #bdc3c7;
+}
+
+table{
+    text-align: center;
+    margin-top: 50px;
+}
+.add-number{
+    text-align: center;
+    margin-top: 20px;
+}
+.add-number a{
+    text-decoration: none;
+    color: white;
+    background: #f1c40f;
+    padding: 5px 15px;
+    margin-left: 10px;
+     transition: all 0.4s;
+     border-radius: 13px;
+}
+
+.add-number a:hover{
+    background: #f39c12;
+   color: white;
+   box-shadow: 10px 1px 10px #f1c40f;
+   transform: scale(1.1%);
+}
+
+
+@media only screen and (max-width: 500px)
+{
+.add-number a{
+    margin-left: 0%;
+}
+
+.add-number p{
+    font-size: 13px;
+}
+
+}
