@@ -40,10 +40,12 @@ table{
 {
 .add-number a{
     margin-left: 0%;
+    text-align: center;
 }
 
 .add-number p{
     font-size: 13px;
+    text-align: justify;
 }
 
 }
