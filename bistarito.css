@@ -164,3 +164,28 @@ nav ul{
 
 
 
+.adding-totho{
+    text-align: center;
+    color: white;
+   
+}
+.adding-totho h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.adding-totho a{
+    color: white;
+    text-decoration: none;
+    background: yellow;
+    text-align: center;
+    padding: 1.8vh 10vw;
+   
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.adding-totho a:hover{
+    background: yellowgreen;
+    color: white;
+  
+}
