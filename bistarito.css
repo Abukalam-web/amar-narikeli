@@ -5,9 +5,7 @@ nav ul{
     margin-top: 1%;
 }
 .section01{
-    background-image: url(bistarito-images/bistarito-back.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #242B2E;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -176,7 +174,7 @@ nav ul{
 .adding-totho a{
     color: white;
     text-decoration: none;
-    background: yellow;
+    background: yellowgreen;
     text-align: center;
     padding: 1.8vh 10vw;
    
