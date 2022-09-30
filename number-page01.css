@@ -5,18 +5,35 @@ nav ul{
 .logoname{
     margin-top: 1%;
 }
+.bdren{
+    background-color: #bdc3c7;
+}
+
+
 
 .sectio01{
     background: #bdc3c7;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.tableSection{
+    background: #bdc3c7;
+}
+input{
+    text-align: center;
 }
 
 table{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 4px;
 }
 .add-number{
     text-align: center;
     margin-top: 20px;
+}
+.add-number p{
+    text-align: center;
 }
 .add-number a{
     text-decoration: none;
@@ -51,3 +68,41 @@ table{
 }
 
 }
+
+
+
+
+
+
+
+/* for table searching */
+
+input{
+    width: 100%;
+}
+
+table td{
+    border: 1px solid grey;
+}
+
+.tableSection{
+    padding-bottom: 30px;
+}
+
+.footer-section{
+    width: 100%;
+    height: 40vh;
+    background-color: #bdc3c7;
+    text-align: center;
+    color: grey;
+    position: relative;
+}
+
+.last009{
+    position: absolute;
+    top: 50;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
